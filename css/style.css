@@ -2,10 +2,10 @@
   --primary-color: #ffffff;
   --secondary-color: #000000;
   --second-background: hsla(100, 100%, 9%, 1.00);
-  --accent-color: rgb(112, 185, 244);
-  --second-accent-color: rgb(138, 198, 246);
+  --accent-color: rgba(244, 112, 222, 1);
+  --second-accent-color: rgb(209, 98, 191);
 
-  --shadow-color: rgb(168, 214, 253);
+  --shadow-color: rgb(213, 115, 197);
   --shadow: 1px 4px 20px var(--shadow-color);
 
 }
@@ -630,4 +630,3 @@ footer{
 .bottom-footer a{
   color: var(--accent-color);
 }
-
