@@ -1,11 +1,11 @@
 :root{
-  --primary-color: #000000;
-  --secondary-color: #FFFFFF;
-  --second-background: #181818;
-  --accent-color: #8151f1;
-  --second-accent-color: #6035c3;
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --second-background: hsla(100, 100%, 9%, 1.00);
+  --accent-color: rgba(244, 112, 222, 1);
+  --second-accent-color: rgb(209, 98, 191);
 
-  --shadow-color: #6d3cdeb6;
+  --shadow-color: rgb(213, 115, 197);
   --shadow: 1px 4px 20px var(--shadow-color);
 
 }
@@ -228,7 +228,7 @@ nav {
   margin: auto 0;
   width: 400px;
   height: 400px;
-  border-radius: 50%;
+  border-radius: 25%;
   overflow: hidden;
   box-shadow: 0 0 25px var(--accent-color) !important;
   transition: .4s;
